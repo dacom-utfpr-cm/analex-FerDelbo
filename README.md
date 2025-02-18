@@ -1,6 +1,15 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6ZHtfd4V)
 # template-projeto-analex-bcc5003
 Este repositório contém o código inicial de referência para o desenvolvimento da fase de Análise Léxica do Projeto do Compilador para a linguagem TPP.
-
+# Como executar o programa
+Para executar os casos e teste no programa é preciso executar o seguinte comando via terminal
+```python
+pytest analex_test.py -v
+```
+Caso queira um caso de teste expecfico 
+```python
+python analex.py -k tests/prog-000.cm 
+```
 # Análise Léxica
 
 A __Análise Léxica__ é a fase do compilador que lê o código-fonte do arquivo de entrada como um fluxo de caracteres, e nesse processo de varredura reconhece os _tokens_ ou marcas da linguagem. As denominações Sistema de Varredura, Analisador Léxico e _Scanner_ são equivalentes.
